@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterFormFragment"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_gravity="left"
+        android:layout_marginVertical="15dp"
+        android:text="Regístrese:"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/input_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="@string/usuario"
+        android:inputType="text"
+        android:background="@drawable/custom_input"
+        android:padding="12dp"
+        android:layout_marginBottom="@dimen/marginBottomEditText"
+        />
+
+    <EditText
+        android:id="@+id/input_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="@string/correo"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/custom_input"
+        android:padding="12dp"
+        android:layout_marginBottom="@dimen/marginBottomEditText"
+        />
+
+    <EditText
+        android:id="@+id/input_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="@string/contraseña"
+        android:inputType="textPassword"
+        android:background="@drawable/custom_input"
+        android:padding="12dp"
+        android:layout_marginBottom="@dimen/marginBottomEditText"
+        />
+
+    <EditText
+        android:id="@+id/input_confirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="@string/confirmarContraseña"
+        android:inputType="textPassword"
+        android:background="@drawable/custom_input"
+        android:padding="12dp"
+        android:layout_marginBottom="@dimen/marginBottomEditText"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/register_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrarse"
+        android:backgroundTint="#c2d64b"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        />
+
+</LinearLayout>
