@@ -64,7 +64,7 @@ public class LoginFormFragment extends Fragment {
                 String emailUser = etEmail.getText().toString();
                 String passUser = etPassword.getText().toString();
 
-                if(validateEmail(emailUser) && validatePassword(passUser)){
+                if(validateEmail(emailUser) /*&& validatePassword(passUser)*/){
                     loginUser(emailUser, passUser);
                 }
             }

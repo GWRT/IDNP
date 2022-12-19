@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Estadistica"
+        android:id="@+id/estadisticaItem_menu"
+        android:icon="@drawable/ic_baseline_bar_chart_24"
+        />
+    <item
+        android:title="GoogleMap"
+        android:id="@+id/googleMapItem_menu"
+        android:icon="@drawable/ic_baseline_map_24"
+        />
+    <item
+        android:title="Perfil"
+        android:id="@+id/perfilItem_menu"
+        android:icon="@drawable/ic_baseline_person_24"
+        />
+
+</menu>
